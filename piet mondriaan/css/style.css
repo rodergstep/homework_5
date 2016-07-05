@@ -1,0 +1,63 @@
+.container {
+	width: 520px;
+	height: 561px;
+}
+
+table {
+	max-width: 100%;
+	max-height: 100%;
+	border-collapse: none;
+    border-spacing: 10px 10px;
+    background: url(../img/bg.png) no-repeat; 
+    background-position: center center;
+}
+
+
+td {
+	border: 1px solid black;
+}
+
+.one td:first-child {
+	height: 47px;
+}
+
+tr td:first-child {
+	width: 47px;
+}
+
+.yellow {
+	background: #ffe659;
+}
+
+.blue {
+	width: 160px;
+	height: 100px;
+	background: #03447f;
+}
+#bigcube {
+	height: 270px;
+	width: 270px;
+	background: #ff5d43;
+}
+.nine, .eight {
+	height: 30px
+
+}
+
+#black {
+	width: 130px;
+	height: 125px;
+	background: #121111;
+}
+
+.secblack {
+	width: 130px;
+	height: 30px;
+	background: #121111;
+}
+
+.yellow2 {
+	height: 135px;
+	background: #ffe659;
+}
+
