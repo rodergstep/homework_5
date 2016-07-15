@@ -63,15 +63,26 @@ nav li {
 	padding-left: 50px;
 	background: url(../img/menu-icon.png) left center no-repeat;
 	border: 1px solid transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
 	}
 .side-right li:hover {
 	background: url(../img/menu-icon.png) left center no-repeat, linear-gradient(to top, rgba(46, 122, 196, 0.9) 0%, rgba(81, 177, 220, 0.9) 100%);
+	border: 1px solid #4299d2;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	border: 1px solid #4299d2;
 }
 .side-right li:last-child {
 	height: 34px;
 	margin-right: 20px;
 	background-image: linear-gradient(to top, rgba(46, 122, 196, 0.9) 0%, rgba(81, 177, 220, 0.9) 100%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	border: 1px solid #4299d2;
 } 
 
@@ -160,6 +171,7 @@ input[type="submit"] {
 	background-image: linear-gradient(to top, #2e7ac4, #51b0dc);
 	border: 1px solid #63a7e1;
 	border-radius: 2px;
+	cursor: pointer;
 }
 .hint {
 	width: 309px;
